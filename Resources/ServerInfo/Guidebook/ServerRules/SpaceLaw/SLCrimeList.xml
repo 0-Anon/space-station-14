@@ -265,7 +265,7 @@
 
   ## Minor Crimes
   - Warnings should be issued for a first offense.
-  - If multiple minor crimes have been committed or it is a repeat offense, 5 minutes per minor crime is the maximum.
+  - If multiple minor crimes have been committed or it is a repeat offense, 1 minute per minor crime is the maximum.
   <Table Columns="4">
     <ColorBox>
       <Box>
@@ -416,7 +416,7 @@
   </Table>
 
   ## Moderate Crimes
-  - The maximum sentence per moderate crime is 5 minutes.
+  - The maximum sentence per moderate crime is 2 minutes.
   - Depending on the situation you may want to issue a warning instead of a detaining.
   <Table Columns="4">
     <ColorBox>
@@ -524,7 +524,7 @@
   </Table>
 
   ## Major Crimes
-  - The maximum sentence per major crime is 10 minutes.
+  - The maximum sentence per major crime is 5 minutes.
   - Assault and Manslaughter are linked crimes, and cannot be stacked against a suspect.
   - It is recommended to not use maximum sentences for those being compliant.
   <Table Columns="4">
@@ -716,8 +716,7 @@
   </Table>
 
   ## Extreme Crimes
-  - The maximum sentence per extreme crime is 15 minutes.
-  - Particularly violent offenders may be placed in perma. (Attacking officers in an attempt to escape prison)
+  - The maximum sentence per extreme crime is 7 minutes.
   - Attempted murder and murder are linked crimes and cannot be stacked together.
   - Attempted murderers should be granted a more lenient sentence than a murderer.
   <Table Columns="4">
@@ -824,7 +823,7 @@
   </Table>
 
   ## Capital Crimes
-  - Capital crimes should usually lead to a death sentence or shift lasting detainment.
+  - The maximum sentence per capital crime is 10 minutes unless otherwise noted. However, if the crime threatens all life on the station, the punishment should instead be a death sentence or shift lasting detainment.
   <Table Columns="4">
     <ColorBox>
       <Box>
