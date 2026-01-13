@@ -1,50 +1,4 @@
 ﻿Entries:
-- author: Nox38
-  changes:
-  - message: Buffed the Librarian cane sword's damage and price to be more competitive.
-      Damage 15 -> 17 slash, TC cost 5 -> 3
-    type: Tweak
-  id: 8871
-  time: '2025-08-19T20:31:02.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39586
-- author: Princess-Cheeseballs
-  changes:
-  - message: Speed boots no longer affect crawling speed.
-    type: Remove
-  - message: Moon boots don't work unless you're standing
-    type: Tweak
-  id: 8872
-  time: '2025-08-20T11:08:31.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39648
-- author: Kowlin
-  changes:
-  - message: Fixed Syndicate tricky grenades not playing sounds on explosion.
-    type: Fix
-  id: 8873
-  time: '2025-08-20T23:34:40.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39792
-- author: TrixxedHeart
-  changes:
-  - message: Added the Impaired Mobility disability trait which reduces movement speed
-      unless using a mobility aid such as a cane and increases stand-up time.
-    type: Add
-  id: 8874
-  time: '2025-08-21T00:43:06.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39398
-- author: TheFlyingSentry
-  changes:
-  - message: 'Added a new trait: Hemophilia!'
-    type: Add
-  id: 8875
-  time: '2025-08-21T01:02:54.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/38224
-- author: DinnerCalzone
-  changes:
-  - message: Fixed more grenades not playing sounds on explosion.
-    type: Fix
-  id: 8876
-  time: '2025-08-22T10:04:29.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39815
 - author: Alkheemist
   changes:
   - message: Added stencil lettering decals to the spraypainter.
@@ -3891,3 +3845,50 @@
   id: 9374
   time: '2026-01-11T04:19:48.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/42330
+- author: SlamBamActionman
+  changes:
+  - message: Added an admin log for whenever a player connects/disconnects.
+    type: Add
+  id: 9375
+  time: '2026-01-11T21:46:54.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/42363
+- author: Velken
+  changes:
+  - message: Fixed description for "help osay" command
+    type: Fix
+  id: 9376
+  time: '2026-01-12T03:04:57.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/42368
+- author: Princess-Cheeseballs
+  changes:
+  - message: Borg hypo was moved to its own module
+    type: Tweak
+  - message: Roundstart chem module has been improved to be more like the advanced
+      chem module
+    type: Tweak
+  id: 9377
+  time: '2026-01-12T21:10:07.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/42123
+- author: chaisftw
+  changes:
+  - message: Spray bottles now have fill level sprites.
+    type: Add
+  id: 9378
+  time: '2026-01-12T22:14:53.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/42155
+- author: PicklOH
+  changes:
+  - message: Changed the destruction category of Space Law to be more accurate and
+      include Silicons.
+    type: Tweak
+  id: 9379
+  time: '2026-01-12T22:30:25.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/42317
+- author: Quantum-cross
+  changes:
+  - message: Now you can be a late join antagonist even if you're arriving via the
+      arrivals shuttle!
+    type: Tweak
+  id: 9380
+  time: '2026-01-12T22:30:25.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/39837
