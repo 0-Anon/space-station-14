@@ -286,7 +286,22 @@ namespace Content.Shared.Atmos
         ///     Divisor for Ammonia Oxygen reaction so that it doesn't happen instantaneously.
         /// </summary>
         public const float AmmoniaOxygenReactionRate = 10f;
+        
+        /// <summary>
+        ///     Divisor for ammonia synthesis reaction so that it doesn't happen instantaneously.
+        /// </summary>
+        public const float AmmoniaProductionConversionRate = 8f;
 
+        /// <summary>
+        ///     1 mol of plasma is required per X mol of nitrogen and water vapor.
+        /// </summary>
+        public const float AmmoniaProductionPlasmaRatio = 50f;
+
+        /// <summary>
+        ///     1 mol of Water Vapor is required per X mol of nitrogen.
+        /// </summary>
+        public const float AmmoniaProductionVaporRatio = 0.33f;
+        
         /// <summary>
         ///     Determines at what pressure the ultra-high pressure red icon is displayed.
         /// </summary>
