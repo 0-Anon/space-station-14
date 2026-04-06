@@ -293,14 +293,14 @@ namespace Content.Shared.Atmos
         public const float AmmoniaProductionConversionRate = 8f;
 
         /// <summary>
-        ///     1 mol of plasma is required per X mol of nitrogen and water vapor.
+        ///     X mol of plasma is required per 1 mol of nitrogen and water vapor.
         /// </summary>
         public const float AmmoniaProductionPlasmaRatio = 50f;
 
         /// <summary>
-        ///     1 mol of Water Vapor is required per X mol of nitrogen.
+        ///     X mol of Water Vapor is required per 1 mol of nitrogen. fuck my life if I'm writing this backwards
         /// </summary>
-        public const float AmmoniaProductionVaporRatio = 0.33f;
+        public const float AmmoniaProductionVaporRatio = 3f;
         
         /// <summary>
         ///     Determines at what pressure the ultra-high pressure red icon is displayed.
