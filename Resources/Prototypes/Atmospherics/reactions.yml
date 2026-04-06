@@ -49,6 +49,18 @@
   effects:
   - !type:AmmoniaOxygenReaction {}
 
+# designed to be like frezon but more forgiving.
+- type: gasReaction
+  id: AmmoniaProduction
+  priority: 2
+  minimumTemperature: 300
+  minimumRequirements:
+    Nitrogen: 0.01
+    WaterVapor: 0.01
+    Plasma: 0.01
+  effects:
+  - !type:AmmoniaProductionReaction {} 
+
 - type: gasReaction
   id: N2ODecomposition
   priority: 0
