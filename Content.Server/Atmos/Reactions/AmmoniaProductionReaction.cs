@@ -20,9 +20,6 @@ public sealed partial class AmmoniaProductionReaction : IGasReactionEffect
         var initialWaterVapor = mixture.GetMoles(Gas.WaterVapor);
         var initialPlasma = mixture.GetMoles(Gas.Plasma);
 
-        var efficiency = mixture.Temperature / Atmospherics.FrezonProductionMaxEfficiencyTemperature;
-        var loss = 1 - efficiency;
-
         // How much the catalyst (Plasma) will allow us to produce
         var catalystLimit = initialPlasma * Atmospherics.AmmoniaProductionPlasmaRatio;
 
